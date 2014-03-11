@@ -14,5 +14,7 @@
 //= require jquery_ujs
 // ***** ADD Angular Here ******
 //= require angular-1.2.13/angular.min
+// ***** ADD Angular Router Here *****
+//= require angular-1.2.13/angular-route.min
 // *****
 //= require_tree .
