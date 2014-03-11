@@ -1,1 +1,3 @@
-var SampleApp = angular.module("SampleApp", []);
+var SampleApp = angular.module("SampleApp", [
+  "SampleAppCtrls"
+]);
