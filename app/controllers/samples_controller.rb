@@ -2,7 +2,7 @@ class SamplesController < ApplicationController
   def index
     # Add some fake samples
     @samples = [{name: "blah", description: "hahaha"},
-                {name: "pretty blah", "that is funny"}]
+                {name: "pretty blah", description: "that is funny"}]
 
     # respond to the type of request
     respond_to do |f|
