@@ -1,11 +1,12 @@
 var SampleAppCtrls = angular.module("SampleAppCtrls", []);
 
-SampleAppCtrls.controller("SamplesCtrl", ["$scope", function($scope){
+SampleAppCtrls.controller("SamplesCtrl", ["$scope", "$http",
+  function($scope){
   // fake samples
-  $scope.fakeSamples = [
-    {name: "bunny", description: "fluffy"},
-    {name: "Green Stuff", description: "meh"},
-    {name: "elephant", description: "big"}
-  ];
+    $scope.fakeSamples = [
+      {name: "bunny", description: "fluffy"},
+      {name: "Green Stuff", description: "meh"},
+      {name: "elephant", description: "big"}
+    ];
 
 }]);
