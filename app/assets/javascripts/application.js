@@ -12,4 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+// ***** ADD Angular Here ******
+//= require angular-1.2.13/angular.min
+// *****
 //= require_tree .
